@@ -12,14 +12,14 @@ with open("readme.txt", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pneumonia_x-ray", # Replace with your own username
+    name="pneumonia", # Replace with your own username
     version="0.0.1",
     author="Advait Thergaonkar, Jay Prajapati",
     author_email="advait.thergaonkar@gmail.com , jayprajapati1141@gmail.com",
     description="A package made to test X-Ray images to determine pneumonia",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/hiiamjay/Pneumonia-Package",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
